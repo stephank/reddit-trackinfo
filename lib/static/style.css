@@ -1,0 +1,67 @@
+html, body, div, span, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    background: #ddd;
+    color: black;
+    font: normal 12px/14px sans-serif;
+}
+
+body {
+    padding-top: 40px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: black;
+    color: #ddd;
+}
+
+.header h1 {
+    font: normal 24px/36px sans-serif;
+    margin: 2px 12px;
+}
+
+.header .progress {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 13px 12px;
+}
+
+.header a {
+    color: #ddd;
+}
+
+.history {
+    margin: 12px;
+}
+
+.link {
+    margin: 8px 0;
+    padding: 5px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background: white;
+}
+
+.link .title {
+    font: normal 16px/20px sans-serif;
+}
+
+.link .subreddit {
+    font: normal 12px/20px sans-serif;
+    margin-left: 10px;
+    color: grey;
+}
